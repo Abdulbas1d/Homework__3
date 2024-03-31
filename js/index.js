@@ -26,19 +26,40 @@
 // Login qilish dasturi
 
 
-const correctUsername = "username";
-const correctPassword = "password";
+// const correctUsername = "username";
+// const correctPassword = "password";
 
-function login() {
-  const username = prompt("Enter username:");
-  const password = prompt("Enter password:");
+// function login() {
+//   const username = prompt("Enter username:");
+//   const password = prompt("Enter password:");
 
-  if (username === correctUsername && password === correctPassword) {
-    window.location.href = "index.html";
-  } else {
-    alert("Incorrect username or password. Please try again.");
-    login();
-  }
-}
+//   if (username === correctUsername && password === correctPassword) {
+//     window.location.href = "index.html";
+//   } else {
+//     alert("Incorrect username or password. Please try again.");
+//     login();
+//   }
+// }
 
-login();
+// login();
+
+
+
+// 3-Misol
+// "Hello world" so'zini foydalanuvchi nechta kiritganini sanash prompt orqali
+
+// let count = 0;
+
+// while (true) {
+//     let userInput = prompt("Type 'hello world' (or cancel to exit):");
+
+//     if (userInput === null) {
+//         break;
+//     }
+
+//     if (userInput.toLowerCase() === "hello world") {
+//         count++;
+//     }
+// }
+
+// console.log("Number of times 'hello world' was typed:", count);
