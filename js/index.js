@@ -63,3 +63,18 @@
 // }
 
 // console.log("Number of times 'hello world' was typed:", count);
+
+
+// 4-Misol
+// A dan B gacha sonlarning faqat juftlarini chiqarish
+
+// let a = parseInt(prompt("Enter the starting number (a):"));
+// let b = parseInt(prompt("Enter the ending number (b):"));
+
+// console.log("Pairs of numbers from", a, "to", b, ":");
+
+// for (let i = a; i <= b; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
