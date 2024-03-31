@@ -22,3 +22,23 @@
 // }
 
 
+// 2-Misol
+// Login qilish dasturi
+
+
+const correctUsername = "username";
+const correctPassword = "password";
+
+function login() {
+  const username = prompt("Enter username:");
+  const password = prompt("Enter password:");
+
+  if (username === correctUsername && password === correctPassword) {
+    window.location.href = "index.html";
+  } else {
+    alert("Incorrect username or password. Please try again.");
+    login();
+  }
+}
+
+login();
